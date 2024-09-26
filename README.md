@@ -7,9 +7,7 @@ Code python Kết nối mysql từ local tới server
 pip install mysql-connector-python
 '''
 
-# Mở file checkremote.py
-
-## Khai báo kết nối Mysql server
+## Mở file checkremote.py & Khai báo kết nối Mysql server
 
 '''
         
@@ -18,4 +16,11 @@ pip install mysql-connector-python
             user='userdb',      # Tên người dùng MySQL
             password='pass db',        # Mật khẩu MySQL
             database='db name'     # Tên cơ sở dữ liệu
+'''
+
+## chạy lệnh
+
+''' 
+python checkremote.py
+
 '''
